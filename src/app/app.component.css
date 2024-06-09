@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Espacio entre el menú y el contenido */
+  }
+  
+  .navigation a {
+    margin: 0 10px; /* Espacio entre los enlaces */
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .navigation a:hover {
+    background-color: #00e6b8;
+    border-radius: 5px;
+  }
+  
+  .navigation a.active {
+    background-color: #00ffcc;
+    border-radius: 5px;
+  }
+  

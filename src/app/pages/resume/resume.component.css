@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url('/assets/imagen_futurista.jpeg'); /* Cambiar la imagen por una más futurista */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none; /* Eliminar el borde */
+  filter: brightness(80%); /* Añadir un efecto futurista al fondo */
+  transition: all 0.5s ease; /* Añadir transiciones suaves */
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #00ffcc; /* Cambiar el color del botón */
+  border: 2px solid #00ffcc; /* Borde sólido */
+  color: #ffffff; /* Texto blanco */
+  border-radius: 5px; /* Borde redondeado */
+  transition: all 0.3s ease; /* Añadir transiciones suaves */
+}
+
+button:hover {
+  background-color: #00e6b8; /* Cambiar el color del botón al pasar el ratón */
+  border-color: #00e6b8; /* Cambiar el color del borde al pasar el ratón */
+  cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+}

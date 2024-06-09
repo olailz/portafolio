@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url('/assets/home_futurista.jpeg'); /* Nueva imagen de fondo más futurista */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(80%); /* Añade un efecto futurista a la imagen */
+  border: none;
+  transition: all 0.5s ease; /* Añade transiciones suaves */
+}
+
+.student-photo {
+  max-width: 20%; /* Incrementa el tamaño de la imagen */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%; /* Hace la imagen circular */
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.7); /* Sombra con un tono futurista */
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #00ffcc; /* Color más futurista */
+  border: 2px solid #00ffcc;
+  color: #ffffff; /* Texto blanco para mayor contraste */
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #00e6b8;
+  border-color: #00e6b8;
+  cursor: pointer;
+}
+
+.info-container {
+  background-color: rgba(0, 255, 255, 0.8); /* Nuevo color de fondo con transparencia */
+  padding: 20px;
+  border: 2px solid #00ffcc; /* Borde con un color más futurista */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.7); /* Sombra con un tono futurista */
+  margin-top: 20px; /* Añade un espacio entre la foto y el contenedor de información */
+}

@@ -1,0 +1,41 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px; /* Ancho del sidebar */
+  height: 100vh;
+  background-color: #222; /* Color de fondo del sidebar */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff; /* Color de texto */
+}
+
+.sidebar h1 {
+  font-size: 24px; /* Tamaño del título */
+  margin-bottom: 20px; /* Espacio entre el título y los botones */
+}
+
+.sidebar button {
+  margin-bottom: 10px; /* Espacio entre los botones */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  font-size: 16px; /* Tamaño del texto del botón */
+  border: none; /* Eliminar borde */
+  background-color: #00ffcc; /* Color de fondo del botón */
+  color: #000; /* Color de texto del botón */
+  cursor: pointer; /* Cambiar cursor al pasar el ratón */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+.sidebar button:hover {
+  background-color: #00e6b8; /* Color de fondo al pasar el ratón */
+  color: #fff; /* Color de texto al pasar el ratón */
+}
+
+.student-photo {
+  margin-top: 20px; /* Espacio entre los botones y la foto */
+  width: 100%; /* Ancho de la foto */
+  border-radius: 50%; /* Hace la imagen circular */
+}
